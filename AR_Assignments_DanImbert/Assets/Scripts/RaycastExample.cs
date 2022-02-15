@@ -11,6 +11,8 @@ public class RaycastExample : MonoBehaviour
     [SerializeField] private ARRaycastManager aRRaycastManager;
 
     [SerializeField] private Text uiText;
+    [SerializeField] List<GameObject> spawnables;
+    GameObject Spawnable;
     // Start is called before the first frame update  
     void Start()
     {
@@ -37,5 +39,10 @@ public class RaycastExample : MonoBehaviour
         {
             uiText.text = "Nothing hit";
         }
+    }
+
+    public void OnSpawnButtonPress()
+    {
+
     }
 }
