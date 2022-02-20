@@ -259,6 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aRRaycastManager: {fileID: 0}
   uiText: {fileID: 586751172}
+  spawnables: []
 --- !u!1 &586751170
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,6 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -433,6 +435,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b2095a09c8e8d4785483868d298427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arCameraManager: {fileID: 152160692}
 --- !u!1 &714831374
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +727,7 @@ GameObject:
   - component: {fileID: 1436525117}
   - component: {fileID: 1436525116}
   - component: {fileID: 1436525115}
+  - component: {fileID: 1436525118}
   m_Layer: 0
   m_Name: AR Session
   m_TagString: Untagged
@@ -801,6 +817,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 0}
+--- !u!114 &1436525118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436525111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FacePrefab: {fileID: 622164404615891213, guid: b8a5753a0dcf5744b99365e95a93f538, type: 3}
+  m_MaximumFaceCount: 1
 --- !u!1 &1956898574
 GameObject:
   m_ObjectHideFlags: 0

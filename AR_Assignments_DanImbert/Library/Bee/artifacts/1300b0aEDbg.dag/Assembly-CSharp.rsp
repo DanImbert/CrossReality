@@ -355,6 +355,7 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Scripts/LightTester.cs"
 "Assets/Scripts/RaycastExample.cs"
 -langversion:9.0
 
